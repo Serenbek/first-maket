@@ -413,14 +413,6 @@ footer {
         align-items: center;
     }
 
-    .sb__t1 {
-        padding-left: 102px;
-    }
-
-    .sb__t2 {
-
-    }
-
     .sb__t3 {
         padding-top: 48px;
     }
@@ -442,7 +434,11 @@ footer {
     }
 
     .btn__1 {
-        margin: 20px 0; 
+        margin: 10px 0; 
+    }
+
+    .btn__sciece {
+        margin-left: 412px;
     }
 
     .logoips {
@@ -461,16 +457,17 @@ footer {
     }
 
     .cards__main {
-        flex-direction: column;
-        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .card1 {
-        margin: 0;
+        margin: 10px 10px;
     }
 
     .card2 {
         margin: 10px 10px;
+        
 
     }
 
@@ -491,8 +488,11 @@ footer {
     }
 
     .cl__img {
+        display: flex;
+        justify-content: center;
         width: 100%;
         padding: 10px 10px;
+        margin-bottom: 0;
     }
 
     .sb__t1 {
@@ -505,6 +505,7 @@ footer {
         width: 100%;
         padding: 10px 10px;
         font-size: 25px;
+        margin-bottom: 0;
     }
         
     .sb__t3 {
@@ -515,6 +516,7 @@ footer {
     .sciece__txt {
         flex-direction: column;
         align-items: flex-start;
+        margin-left: 0;
         width: 100%;
         padding: 10px 10px;
     }   
@@ -555,7 +557,12 @@ footer {
 
     .lang {
         align-items: center;
+        margin-bottom: 20px;
         
+    }
+
+    .footer__gl {
+        margin-left: 84px;
     }
 
 }
@@ -599,6 +606,17 @@ footer {
         width: 100%;
         padding: 10px 10px;
         font-size: 25px;
+        margin-top: 50px;
+    }
+
+    .btn__sc {
+        margin:  0 0 0 196px;
+    }
+
+    .lang {
+        margin:  0 0 0 84px;  
+        margin-top: 20px; 
+
     }
 }
 
